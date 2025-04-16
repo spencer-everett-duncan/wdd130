@@ -1,3 +1,6 @@
+body {
+    font-family: Georgia;
+}
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -10,6 +13,7 @@ nav a {
 }
 
 h1 {
+    font-family: 'Ariel Black';
     color: darkblue;
 }
 
