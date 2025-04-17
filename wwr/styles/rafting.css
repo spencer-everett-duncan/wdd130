@@ -176,6 +176,145 @@ footer .socialmedia img {
 }
 
 
-https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap
-https://fonts.googleapis.com/css2?family=PT+Sans&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap
-styles/rafting.css
+
+.contact-page {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.contact-info,
+.employees,
+.contact-form-section {
+    margin-bottom: 2rem;
+}
+
+.contact-info h2,
+.employees h2,
+.contact-form-section h2 {
+    font-family: var(--heading-font);
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.company-details,
+.map {
+    flex: 1 1 320px;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.map iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+.employee-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.employee-gallery figure {
+    text-align: center;
+    width: 180px;
+}
+
+.employee-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.employee-gallery figcaption {
+    margin-top: 0.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+
+.contact-form {
+    background-color: var(--accent2-color);
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--primary-color);
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+    font-family: var(--text-font);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form .radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.submit-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--secondary-color);
+}
+
+.wireframe-link {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.95rem;
+}
+
+.wireframe-link a {
+    color: var(--accent1-color);
+    text-decoration: underline;
+}
